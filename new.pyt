@@ -1,1 +1,1 @@
-printf("hello! world")
+# Que - take the number from user to sum the total??
