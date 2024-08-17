@@ -101,3 +101,56 @@
 # # reversed_string = str[::-1]
 # # # Print the reversed string
 # # print("Reversed string is:", reversed_string)
+
+# 1️⃣1️⃣ Write a Python program to check if a year is a leap year.
+# year = int(input("Enter a Year to check whether it is a Leap year : "))
+# Check if the year is a leap year
+# if (year % 4 == 0):
+#     if (year % 100 == 0):
+#         if (year % 400 == 0):
+#             print(f"{year} is a leap year.")
+#         else:
+#             print(f"{year} is not a leap year.")
+#     else:
+#         print(f"{year} is a leap year.")
+# else:
+#     print(f"{year} is not a leap year.")
+
+# 1️⃣2️⃣ Write a Python program to check if a number is positive, negative, or zero.
+# num = int(input("Enter your number to check : "))
+# if num > 0:
+#      print(num," is positive value!")
+# elif num < 0:
+#      print(num," is negative value!")
+# else:
+#      print(num," is equal to zero!")
+    
+    
+# 1️⃣3️⃣ Write a Python program to find the largest among three numbers.
+# num1 = int(input("Enter your number to check : "))
+# num2 = int(input("Enter your number to check : "))
+# num3 = int(input("Enter your number to check : "))
+# if num1 > num2 and num1 > num3:
+#      print(num1,"Is greatest number!")
+# elif num2 > num1 and num2 > num3:
+#      print(num2,"Is greatest number!")
+# else:
+#      print(num3,"Is greatest number!")
+
+# 1️⃣4️⃣ Write a Python program to determine if a person is eligible to vote based on their age.
+# age = int(input("Enter your age to check?? :"))
+# if age < 18:
+#      print("You are not eligible for voting!!")
+# else:
+#      print("You are eligible for voting!!") 
+
+# 1️⃣5️⃣ Write a Python program to check if a character is a vowel or consonant.
+# char = str(input("Enter your char to check :"))
+# if char == "a" or char == "e" or char=="i" or char=="o" or char=="u":
+#      print(char,"is vowel!!")
+# else:
+#      print(char,"is constant!!")
+
+# 1️⃣6️⃣ Write a Python program to check if a string is a palindrome.
+char = str(input("Enter string to check palindrome :"))
+
