@@ -32,18 +32,18 @@
 #            print(f"{num} is a prime number!")
 
 # 2️⃣ method
-# def prime(n):
-#      f=0
-#      for i in range(2,(n//2)+1):
-#           if n%i==0:
-#                f=1
-#                break
-#      return f
-# last_count=int(input("Enter last number : "))
-# print("Twin prime numbers are: ")
-# for i in range(2,last_count+1):
-#      if prime(i)==0 and prime(i+2)==0:
-#           print(i," ",i+2)
+def prime(n):
+     f=0
+     for i in range(2,(n//2)+1):
+          if n%i==0:
+               f=1
+               break
+     return f
+last_count=int(input("Enter last number : "))
+print("Twin prime numbers are: ")
+for i in range(2,last_count+1):
+     if prime(i)==0 and prime(i+2)==0:
+          print(i," ",i+2)
 
 
 # for i in range (2,1000):
