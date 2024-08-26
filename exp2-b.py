@@ -22,3 +22,4 @@ if int(search_ID) == user_dict["User_ID"]:
     print(f"Age: {user_dict['Age']}")
 else:
     print("User ID not found.")
+
