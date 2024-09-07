@@ -1,3 +1,26 @@
+#lecture no - 28
+year1 = int(input("Enter your year to check?? : "))
+if year1 %4==0:
+     if year1 % 100 ==0:
+          if year1 % 400 ==0:
+               print("Leap year")
+          else:
+               print("Not a leap year")
+     else:
+          print("Leap Year")
+else:
+     print("Not leap year")
+     
+
+#lecture no - 23
+# age=int(input("Enter Your Age : "))
+# years_left = 90-age
+# days_left=years_left*365
+# months_left=years_left*12
+# weeks_left=years_left*52
+
+# print(f"You have {days_left} days, {weeks_left} weeks and {months_left} months left. ")
+
 #lecture no - 18
 # a=5
 # b='5'
