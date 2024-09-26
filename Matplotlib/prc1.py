@@ -5,5 +5,5 @@ text = "Python is powerful and fast. Python is easy to learn. Python can handle 
 wordcloud = WordCloud(width=400, height=300, background_color='white').generate(text)
 
 plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
+plt.axis('on')
 plt.show()
