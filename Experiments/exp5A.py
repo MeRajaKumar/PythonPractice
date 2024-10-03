@@ -47,7 +47,7 @@ bars = plt.bar(labels_bar, value_bar, color=[color_dict[label] for label in labe
 for bar, value in zip(bars, value_bar):
     plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() - 2,   
              str(value), ha='center', va='bottom', color='white', fontweight='bold')  
-
+             
 plt.xlabel('Fruits')
 plt.ylabel('Quantity (pcs)')
 plt.title('Fruits Distribution')
