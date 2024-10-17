@@ -22,7 +22,9 @@ password_entry.insert(tk.END, "Type your text here...")
 
 # Login Button
 login_button = tk.Button(root, text="Login", font=("Arial", 14))
-login_button.grid(row=2, column=0, columnspan=2, pady=20)
+login_button.grid(row=2, column=0, padx=10, pady=20)
+login_button = tk.Button(root, text="Reset", font=("Arial", 14))
+login_button.grid(row=2, column=1, padx=0, pady=0)
 
 # Start the Tkinter event loop
 root.mainloop()
