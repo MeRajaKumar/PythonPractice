@@ -24,7 +24,3 @@ def find_subsets(S, target):
     else:
         print("No subset found with the given sum.")
 
-# Example usage
-S = [1, 3, 7, 11]
-d = 10
-find_subsets(S, d)
